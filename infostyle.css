@@ -13,7 +13,9 @@ html {
 }
 
 P.THICK {
-    font-weight: bold;
+    font-weight: thin;
+    font-family: 'roboto condensed', sans serif;
+    font-size: 15px;
 }	
 
 
@@ -23,7 +25,7 @@ P.THICK {
   margin-top: 100px;
   left: 150px;
   margin-bottom: 120px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond',serif;
   font-size: 25px;
 }
 
@@ -134,7 +136,7 @@ P.THICK {
         right: 200px;
         margin-top: 20px;
         font-size: 18px;
-        font-family: 'Cormorant Garamond', serif;
+        font-family: 'EB Garamond', serif;
  
 
     }
