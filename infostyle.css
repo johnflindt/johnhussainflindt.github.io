@@ -23,8 +23,9 @@ P.THICK {
 .INFO  {
   position: absolute;
   margin-top: 100px;
-  left: 150px;
+  left: 50px;
   margin-bottom: 120px;
+  right: 20px;
   font-family: 'EB Garamond',serif;
   font-size: 16px;
 }
@@ -36,7 +37,7 @@ P.THICK {
 .contactme {
   position: absolute;
   float: right;
-  top: 30px;
+  top: 33px;
   right: 20px;
   transition: all 0.5s;
   
@@ -68,7 +69,7 @@ P.THICK {
 
 
 .navigation {
-    position: fixed;
+    position: absolute;
     list-style-type: none;
     margin-top: 30px;
     margin-bottom: 50px;
@@ -113,6 +114,10 @@ P.THICK {
         font-size: 16px;
     }
 
+    .navigation {
+        position: fixed;
+    }
+
     .navigation li {
         display: block;
         font-size: 16px;
@@ -132,9 +137,11 @@ P.THICK {
 
 
     .INFO 
+
     {
 
         top: 0PX;
+        left: 150px;
         right: 200px;
         margin-top: 20px;
         font-size: 18px;
