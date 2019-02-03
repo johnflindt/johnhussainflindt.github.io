@@ -1,5 +1,7 @@
 body {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'roboto condensed', sans serif;
+
+
 }
 
 body,
@@ -10,15 +12,54 @@ html {
     font-size: 25px;
 }
 
-	
+P.THICK {
+    font-weight: bold;
+}	
+
+
+
 .INFO  {
   position: absolute;
-  margin-top: 30px;
+  margin-top: 100px;
   left: 200px;
   margin-bottom: 120px;
-  font-family: garamond;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
 }
+
+.contactme {
+    font-family: 'roboto condensed', sans serif;
+}
+.contactme {
+  position: relative;
+  left: 200px;
+  top: 60px;
+  
+
+
+}
+
+.contactme a {
+
+    color: black;
+    text-decoration: none;
+    line-height: 150%;
+    transition: all 0.5s;
+}
+
+.contactme a:hover {
+    color: black;
+    letter-spacing: 0.5px;
+    padding-left: 3px;
+    transition: letter-spacing 0.2s;
+    transition: all 0.2s;
+    transition: ease;
+}
+
+.contactme a:visited {
+    text-decoration: none;
+}
+
 
 
 .navigation {
@@ -56,6 +97,7 @@ html {
 }
 
 
+
 ::-webkit-scrollbar {
     width: 12px;
     display: none;
@@ -73,11 +115,14 @@ html {
 
 
 
-    .INFO {
-        margin top:100px;
-        border-left: 100px;
+    .INFO 
+    {
+
+        top: 150PX;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+ 
 
     }
 
