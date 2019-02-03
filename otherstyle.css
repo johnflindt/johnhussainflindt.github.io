@@ -18,7 +18,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    
 }
 
 /* NAVIGATION */
@@ -41,6 +41,7 @@ html {
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
 }
 
 .discoli {
@@ -67,4 +68,48 @@ html {
 .disco a:visited {
     text-decoration: none;
 }
- </style>
+ @media only screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .disco li {
+        display: block;
+        font-size: 16px;
+    }
+
+.contactme {
+  position: fixed;
+  float: right;
+  top: 30px;
+  right: 50px;
+  transition: all 0.5s;
+  
+
+
+}
+
+
+    .INFO 
+    {
+
+        top: 150PX;
+        right: 200px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: 'Cormorant Garamond', serif;
+ 
+
+    }
+
+  
+   
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        display: none;
+    }
+
+}
+
+
