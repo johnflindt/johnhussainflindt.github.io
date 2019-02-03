@@ -21,7 +21,7 @@ P.THICK {
 .INFO  {
   position: absolute;
   margin-top: 100px;
-  left: 200px;
+  left: 150px;
   margin-bottom: 120px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
@@ -31,9 +31,11 @@ P.THICK {
     font-family: 'roboto condensed', sans serif;
 }
 .contactme {
-  position: relative;
-  left: 200px;
-  top: 60px;
+  position: absolute;
+  float: right;
+  top: 30px;
+  right: 20px;
+  transition: all 0.5s;
   
 
 
@@ -43,13 +45,13 @@ P.THICK {
 
     color: black;
     text-decoration: none;
-    line-height: 150%;
+    line-height: 120%;
     transition: all 0.5s;
 }
 
 .contactme a:hover {
     color: black;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
     padding-left: 3px;
     transition: letter-spacing 0.2s;
     transition: all 0.2s;
@@ -113,12 +115,23 @@ P.THICK {
         font-size: 16px;
     }
 
+.contactme {
+  position: fixed;
+  float: right;
+  top: 30px;
+  right: 50px;
+  transition: all 0.5s;
+  
+
+
+}
 
 
     .INFO 
     {
 
         top: 150PX;
+        right: 200px;
         margin-top: 20px;
         font-size: 18px;
         font-family: 'Cormorant Garamond', serif;

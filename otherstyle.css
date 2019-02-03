@@ -1,0 +1,67 @@
+
+
+
+html {
+    background: url(tunnel.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* NAVIGATION */
+
+.subcaption {
+    
+   font-size: 11px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 30px;
+
+ }
+
+.disco {
+    position: fixed;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.discoli {
+    display: inline;
+    margin-right: 20px;
+}
+
+.disco a {
+    color: black;
+    text-decoration: none;
+    line-height: 150%;
+    transition: all 0.5s;
+}
+
+.disco a:hover {
+    color: black;
+    letter-spacing: 0.5px;
+    padding-left: 3px;
+    transition: letter-spacing 0.2s;
+    transition: all 0.2s;
+    transition: ease;
+}
+
+.disco a:visited {
+    text-decoration: none;
+}
+ </style>
