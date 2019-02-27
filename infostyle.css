@@ -1,5 +1,5 @@
 body {
-    font-family: 'roboto condensed', sans serif;
+    font-family: "helvetica neue";
 
 
 }
@@ -9,7 +9,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    
 }
 
 P.THICK {
@@ -22,7 +22,7 @@ P.THICK {
 
 .INFO  {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 0vh;
   left: 50px;
   margin-bottom: 120px;
   right: 20px;
@@ -32,30 +32,26 @@ P.THICK {
 
 .contactme {
     font-family: 'roboto condensed', sans serif;
-    font-size: 25px
-}
-.contactme {
-  position: absolute;
-  float: right;
-  top: 33px;
-  right: 20px;
-  transition: all 0.5s;
-  
-
+    font-size: 12px;
+    /*left: 20px;*/
+    padding-left: 50px;
+    padding-top: 75px;
+   transition: all 0.5s;
 
 }
 
 .contactme a {
 
-    color: grey;
+    color: black;
+    letter-spacing: 0.06em;
     text-decoration: none;
     line-height: 120%;
     transition: all 0.5s;
 }
 
 .contactme a:hover {
-    color: black;
-    letter-spacing: 0.2px;
+    color: red;
+    letter-spacing: 0.05em;
     padding-left: 3px;
     transition: letter-spacing 0.2s;
     transition: all 0.2s;
@@ -69,39 +65,81 @@ P.THICK {
 
 
 .navigation {
-    position: absolute;
+    
+   
     list-style-type: none;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    font-size: 25px;
+    /*font-size: 18px;*/
+    display: inline-block;
+    word-spacing: 0.5em;
+    
 }
 
-.navigation li {
-    display: block;
-    margin-right: 20px;
-    font-size: 25px;
+
+
+.middle {
+ 
+ 
+  top: 0%;
+  left: 0%;
+  
 }
 
-.navigation a {
-    color: grey;
-    text-decoration: none;
-    line-height: 150%;
-    transition: all 0.5s;
+.baby {
+
+    margin-right: 175px;
+    
 }
 
-.navigation a:hover {
+.one {
+     padding-left: 0px;
+    letter-spacing: 0.5em;
+    display: inline-block;
+}
+
+
+.navigation li  {
+    display: inline-block;
+    
+}
+
+.one a {
     color: black;
-    letter-spacing: 0.5px;
-    padding-left: 3px;
+    text-decoration: none;
+    line-height: 250%;
+    transition: letter-spacing 0.5s;
+     transition: all 0.2s;
+    letter-spacing: 0.3em;
+
+}
+
+.one a:hover {
+    color: red;
+    letter-spacing: 0.25em;
+    transition: letter-spacing 0.5s;
+    transition: ease;
+     transition: all 0.2s;
+
+}
+
+.two a {
+    color: black;
+    text-decoration: none;
+    line-height: 300%;
+    transition: letter-spacing 0.5s;
+
+    letter-spacing: 0.1em;
+}
+
+.two a:hover {
+    color: red;
+    letter-spacing: 0.05em;
     transition: letter-spacing 0.2s;
-    transition: all 0.2s;
     transition: ease;
 }
 
 .navigation a:visited {
     text-decoration: none;
 }
-
 
 
 ::-webkit-scrollbar {
@@ -114,24 +152,28 @@ P.THICK {
         font-size: 16px;
     }
 
-    .navigation {
-        position: fixed;
-    }
-
+    .middle {position: fixed;}
     .navigation li {
         display: block;
-        font-size: 16px;
+        font-size: 12px;
+
     }
 
-.contactme {
-  position: fixed;
-  float: right;
-  top: 30px;
-  right: 50px;
+  .contactme { position: fixed;
+   right: 30px;
+   font-size: 12px;
+   top: 35px;
+   padding-top: 15px;
+    align-content: right;}
+
+  .contactme {
+
+
+  /*float: right;
+ padding-top: 50px;
+  padding-right: 50px;*/
   transition: all 0.5s;
   font-size: 16px;
-  
-
 
 }
 
@@ -141,11 +183,13 @@ P.THICK {
     {
 
         top: 0PX;
-        left: 150px;
+        left: 175px;
         right: 200px;
         margin-top: 20px;
         font-size: 18px;
         font-family: 'EB Garamond', serif;
+        padding-bottom: 1000px;
+        padding-top: 50px;
  
 
     }
