@@ -2,7 +2,7 @@
 /*GITHUb*/
 
 html {
-    background: url(backgroundmic.jpg) no-repeat center center fixed;
+    background: url(orbackground.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: "helvetica neue";
+    font-family: EB+Garamond; /*"helvetica neue";*/  
     
      
 }
@@ -48,6 +48,15 @@ html {
 }
 
 
+.centre {
+
+    position: fixed;
+    bottom: -7px;
+    left: -16px;
+    /*width:30em;
+    height:18em;*/
+   
+}
 
 .middle {
  
@@ -110,6 +119,26 @@ html {
     transition: ease;
 }
 
+.three a {
+    color: black;
+    text-decoration: none;
+    line-height: 250%;
+    transition: letter-spacing 0.5s;
+     transition: all 0.2s;
+    letter-spacing: 0.3em;
+
+
+}
+
+.three a:hover {
+    color: red;
+    letter-spacing: 0.25em;
+    transition: letter-spacing 0.5s;
+    transition: ease;
+     transition: all 0.2s;
+
+}
+
 .navigation a:visited {
     text-decoration: none;
 }
@@ -130,7 +159,14 @@ img {
 
 @media only screen and (min-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 11px;
+    }
+
+    .centre li {
+
+        display: block;
+        font-size: 11px;
+
     }
 
     .navigation li {
