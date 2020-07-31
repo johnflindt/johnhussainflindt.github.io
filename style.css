@@ -126,6 +126,7 @@ html {
     transition: letter-spacing 0.5s;
      transition: all 0.2s;
     letter-spacing: 0.3em;
+    background: white;
 
 
 }
