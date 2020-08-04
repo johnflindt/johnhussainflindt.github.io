@@ -31,11 +31,11 @@ html {
       outline: none;
       color: white;
       width: 5em;
+      height: 2em;
       text-align: left;
       text-decoration: none;
       display: inline-block;
       margin: 4px 2px;
-      cursor: pointer;
       letter-spacing: 0.25em;
   }
 
