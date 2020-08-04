@@ -30,12 +30,12 @@ html {
       border: none;
       outline: none;
       color: white;
-      width: 5em;
+      width: 6em;
       height: 2em;
       text-align: left;
       text-decoration: none;
       display: inline-block;
-      margin: 4px 2px;
+      margin: 7px /*2px*/;
       letter-spacing: 0.25em;
   }
 
@@ -48,7 +48,7 @@ html {
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  /*margin: 4px /*2px*/;*/
   cursor: pointer;
 }
 
