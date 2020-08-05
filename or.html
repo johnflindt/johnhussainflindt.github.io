@@ -13,7 +13,34 @@ permalink: /or/
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<style>
+                  
 
+
+
+						                  +@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+						@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+						@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+						.fade-in {
+							opacity:0;  /* make things invisible upon start */
+							-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+							-moz-animation:fadeIn ease-in 1;
+							animation:fadeIn ease-in 1;
+
+							-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+							-moz-animation-fill-mode:forwards;
+							animation-fill-mode:forwards;
+
+							-webkit-animation-duration:0.5s;
+							-moz-animation-duration:0.5s;
+							animation-duration:0.5s;
+						}
+
+
+						.fade-in {
+						-webkit-animation-delay: 1.6s;
+						-moz-animation-delay: 1.6s;
+						animation-delay: 1.6s;}
                
 
                .wrapper   {
@@ -54,7 +81,7 @@ permalink: /or/
 
             <div class="wrapper">
 
-          	<div class="box">
+          	<div class="box fade-in">
 
 
           	   <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/314039992" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
