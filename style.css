@@ -2,7 +2,7 @@
 /*GITHUb*/
 
 html {
-    background: url(capsulebackground.jpg) no-repeat center center fixed;
+    background: url(screen.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,7 +15,18 @@ body {
      
 }
 
-body,
+body {
+  opacity: none;
+  transition: 5s opacity 40;
+}
+
+body.fade {
+    opacity: 70;
+    transition: none;
+}
+
+
+
 html {
     height: 100%;
     margin: 0;

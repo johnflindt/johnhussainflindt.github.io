@@ -1,0 +1,296 @@
+
+/*GITHUb*/
+
+html {
+    background: url(capsulebackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: helvetica neue; /*"helvetica neue";*/  
+    
+     
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/*.subcaption {
+    
+   font-size: 11px;
+   font-family: 'EB Garamond',serif;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding-right: 40px;
+   padding-bottom: 15px
+
+ }*/
+
+/* NAVIGATION */
+
+.button  {
+      background-color: white;
+      border: none;
+      outline: none;
+      color: white;
+      width: 5em;
+      text-align: left;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      letter-spacing: 0.25em;
+  }
+
+
+.button a {
+  border: none;
+  outline: none;
+  color: black;
+  width: 5em;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+.button:hover {
+
+    
+    width: 4.5em;
+    transition: all 0.2s;
+    color: red;
+    letter-spacing: 0.1em;
+    transition: letter-spacing 0.5s;
+    transition: ease;
+    transition: all 0.2s;
+}
+
+.three  {
+list-style: none;
+}
+
+/*.navigation {
+    
+   
+    list-style-type: none;
+    /*font-size: 18px;*/
+    /*display: inline-block;
+    word-spacing: 0.5em;
+    
+}*/
+
+
+/*.centre {
+
+    position: fixed;
+    bottom: -7px;
+    left: -16px;
+    /*width:30em;
+    height:18em;*/
+   
+/*}
+
+.middle {
+ 
+ 
+  top: 0%;
+  left: 0%;
+  
+}
+
+.baby {
+
+    margin-right: 175px;
+    
+}
+
+.one {
+     padding-left: 0px;
+    letter-spacing: 0.5em;
+    display: inline-block;
+}
+
+
+.navigation li  {
+    display: inline-block;
+    
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+    line-height: 250%;
+    transition: letter-spacing 0.5s;
+     transition: all 0.2s;
+    letter-spacing: 0.3em;
+
+}
+
+.one a:hover {
+    color: red;
+    letter-spacing: 0.25em;
+    transition: letter-spacing 0.5s;
+    transition: ease;
+     transition: all 0.2s;
+
+}
+
+.two a {
+    color: black;
+    text-decoration: none;
+    line-height: 300%;
+    transition: letter-spacing 0.5s;
+
+    letter-spacing: 0.1em;
+}*/
+
+/*.two a:hover {
+    color: red;
+    letter-spacing: 0.05em;
+    transition: letter-spacing 0.2s;
+    transition: ease;
+}**//*/*/
+
+
+      
+
+/*.three a {
+
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    line-height: 250%;
+    transition: letter-spacing 0.5s;
+    transition: all 0.2s;
+    letter-spacing: 0.3em;
+}*/
+
+
+
+
+/*.three a:hover {
+    color: red;
+    letter-spacing: 0.25em;
+    transition: letter-spacing 0.5s;
+    transition: ease;
+    transition: all 0.2s;
+    list-style-type: none;
+    margin: 0; padding: 0;
+
+}
+
+
+
+
+.three  {list-style: none;
+    text-decoration: none;
+    }
+
+
+
+
+/*.navigation a:visited {
+    text-decoration: none;
+}
+
+
+
+
+/* IMAGE SCROLLER 
+
+/*.image-scroller {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    margin: 0 10px;
+}
+
+img {
+    width: 100%;
+}*/
+
+/*@media only screen and (min-width: 600px) {
+    body {
+        font-size: 11px;
+    }*/
+
+    /*.centre li {
+
+        display: block;
+        font-size: 11px;
+
+    }
+
+    .navigation li {
+        display: block;
+        font-size: 12px;
+
+    }
+
+    .imagespace {
+        width: 300px;
+        height: 300px;
+        background: transparent;
+    }
+
+    .image-scroller {
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        background-color: transparent;
+        white-space: nowrap;
+    }
+
+    .image-container {
+        display: inline-block;
+        margin-right: 50px;
+        vertical-align: text-top;
+        height: 70vh;
+    }
+
+    .image-container img {
+        height: 70%;
+    }
+
+    .captioned-figure {
+        display: table;
+        table-layout: fixed;
+    }
+
+    .caption {
+        background-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px 10px 10px;
+        font-family: serif;
+        color: white;*/
+ /*        width: 720px; 
+        overflow: normal;
+        white-space: normal;
+
+        display: table-caption;
+        caption-side: bottom;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        display: none;
+    }
+}
+</pre>
+  </body>
+</html>*/
