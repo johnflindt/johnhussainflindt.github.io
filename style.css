@@ -41,7 +41,7 @@ html {
       border: none;
       outline: none;
       color: white;
-      width: 6em;
+      width: 7em;
       height: 2em;
       text-align: left;
       text-decoration: none;
@@ -69,7 +69,7 @@ html {
 .button:hover {
 
     
-    width: 4.5em;
+    width: 5.5em;
     transition: all 0.2s;
     color: red;
     letter-spacing: 0.1em;
