@@ -5,13 +5,10 @@ html {
    
 }
 
-body {
-    font-family: helvetica neue; /*"helvetica neue";*/  
-    
-     
-}
+
 
 body {
+  font-family: 'Raleway', sans-serif; font-size: 22px;/*"helvetica neue";*/  
   opacity: none;
   transition: 5s opacity 40;
 }
@@ -27,7 +24,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -45,6 +42,7 @@ html {
 
 
 .button  {
+      font-family: 'Raleway', sans-serif;
       background-color: white;
       border: none;
       outline: none;
