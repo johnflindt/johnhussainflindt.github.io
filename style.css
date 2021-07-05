@@ -2,58 +2,79 @@
 /*GITHUb*/
 
 html {
+
+  padding-left: none;
    
 }
 
 
 
 body {
-  font-family: 'Raleway', sans-serif; font-size: 22px;/*"helvetica neue";*/  
+  /*"helvetica neue";*/  
   opacity: none;
   transition: 5s opacity 40;
+  
 }
 
 body.fade {
     opacity: 70;
     transition: none;
+    
 }
 
 
 
 html {
+    font-family: 'Cantarell', sans-serif;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 30px;
 }
+
+
+
+   
 
 
 .imagecontainer 
 
 {
 
-
+  font-size: 12pt;
   padding-left: 200px;
-  padding-top: 75px;
+  padding-top: 60 px;
   padding-bottom: 500px;
   padding-right: 150px;
+
+
   
 }
 
 
+.list {
+
+  padding-left: 15px;
+  margin-top: 0px;
+}
+
+
 .button  {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'EB Garamond', serif;
+      font-size: 11pt;
       background-color: white;
       border: none;
       outline: none;
       color: white;
-      width: 7em;
-      height: 2em;
+      width: 0em;
+      height: 1.2em;
       text-align: left;
       text-decoration: none;
-      display: inline-block;
-      margin: 7px /*2px*/;
-      letter-spacing: 0.25em;
+      display: block;
+      margin: 0 /*2px*/;
+      letter-spacing: 0.1em;
+      padding-left: 0px;
+      
   }
 
 
@@ -64,21 +85,31 @@ html {
   width: 5em;
   text-align: left;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   /*margin: 4px /*2px*/;*/
   cursor: pointer;
+  padding: none;
 }
+
+.button a:hover {
+  transition: all 0.2s;
+  color: grey;
+  padding-left: none;
+  letter-spacing: 1em;
+}
+
+
 
 
 
 
 .button:hover {
 
-    
+    color: red;
     width: 5.5em;
     transition: all 0.2s;
-    color: red;
-    letter-spacing: 0.1em;
+    
+    letter-spacing: 0em;
     transition: letter-spacing 0.5s;
     transition: ease;
     transition: all 0.2s;
@@ -87,6 +118,130 @@ html {
 .three  {
 list-style: none;
 }
+
+
+.navigation
+
+{
+
+  padding-top: 5px;
+  
+
+
+
+}
+
+.about
+
+ {
+
+  padding-left: 200px;
+  padding-top: 75px;
+  padding-bottom: 500px;
+  padding-right: 150px;
+
+}
+
+
+.fade
+
+ p {
+   
+   font-family: EB Garamond;
+   font-size: 12pt;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+
+
+
 
 
 
