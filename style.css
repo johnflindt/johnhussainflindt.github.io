@@ -60,20 +60,22 @@ html {
 
 
 .button  {
-      font-family: 'EB Garamond', serif;
+      font-family: 'Cantarell', sans-serif;
+    height: 100%;
       font-size: 11pt;
       background-color: white;
       border: none;
       outline: none;
       color: white;
       width: 0em;
-      height: 1.2em;
+      height: 1.5em;
       text-align: left;
       text-decoration: none;
       display: block;
       margin: 0 /*2px*/;
       letter-spacing: 0.1em;
       padding-left: 0px;
+
       
   }
 
@@ -95,7 +97,7 @@ html {
   transition: all 0.2s;
   color: grey;
   padding-left: none;
-  letter-spacing: 1em;
+  letter-spacing: 0.2em;
 }
 
 
