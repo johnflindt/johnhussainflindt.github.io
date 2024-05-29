@@ -1,3 +1,4 @@
+@@ -1,251 +1,252 @@
 
 /*GITHUb*/
 
@@ -52,12 +53,18 @@ a:hover {
 
   font-size: 12pt;
   padding-left: 200px;
-  padding-top: 60px;
+  padding-top: 60 px;
   padding-bottom: 500px;
   padding-right: 150px;
+  display: flex;
+  justify-content: center;
+}
 
+img{
 
   
+  width: 65vw;
+  height: auto;
 }
 
 
