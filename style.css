@@ -153,10 +153,10 @@ list-style: none;
 
  {
 
-  padding-left: 200px;
-  padding-top: 75px;
+  padding-left: 10vw;
+  padding-top: 10vh;
   padding-bottom: 500px;
-  padding-right: 150px;
+  display: flex;
 
 }
 
@@ -257,6 +257,14 @@ list-style: none;
     opacity:1;
 }
 
+
+/* Styles specific to mobile devices */
+@media only screen and (max-width: 600px) {
+
+  .about {
+
+    padding-left: 10px;
+  }
 
 
 
