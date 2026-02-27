@@ -1,11 +1,10 @@
-css
 /* =========================
    GLOBAL
 ========================= */
 
 html {
   font-family: 'Cantarell', sans-serif;
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
   font-size: 30px;
@@ -21,7 +20,6 @@ body.fade {
   opacity: 0.7;
 }
 
-
 /* =========================
    LINKS
 ========================= */
@@ -35,7 +33,6 @@ a:hover {
   color: grey;
 }
 
-
 /* =========================
    NAVIGATION
 ========================= */
@@ -47,6 +44,13 @@ a:hover {
   z-index: 1000;
 }
 
+.navigation .list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
 
 /* =========================
    BUTTONS / MENU
@@ -55,20 +59,22 @@ a:hover {
 .button {
   font-family: 'Cantarell', sans-serif;
   font-size: 11pt;
-  background-color: white;
+  background-color: rgba(255,255,255,0.9);
   border: none;
   color: black;
   height: 1.5em;
   text-align: left;
   display: block;
   letter-spacing: 0.1em;
-  padding: 0;
+  padding: 0 5px;
+  backdrop-filter: blur(5px);
 }
 
 .button a {
-  color: black;
   display: block;
+  color: black;
   cursor: pointer;
+  padding: 0;
 }
 
 .button a:hover {
@@ -77,19 +83,13 @@ a:hover {
   letter-spacing: 0.2em;
 }
 
-.three {
-  list-style: none;
-}
-
-
 /* =========================
    IMAGE PAGE
 ========================= */
 
 .imagecontainer {
   font-size: 12pt;
-  padding: 200px;
-  padding-top: 120px;
+  padding: 120px 200px 200px 200px;
   display: flex;
   justify-content: center;
 }
@@ -99,14 +99,13 @@ img {
   height: auto;
 }
 
-
 /* =========================
    ABOUT PAGE
 ========================= */
 
 .about {
   padding-left: 10vw;
-  padding-top: 120px;   /* space for fixed nav */
+  padding-top: 120px;   /* leave space for fixed nav */
   padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
@@ -118,7 +117,6 @@ img {
   font-size: 12pt;
   line-height: 1.6;
 }
-
 
 /* =========================
    FADE ANIMATION
@@ -133,21 +131,55 @@ img {
   to { opacity: 1; }
 }
 
-
 /* =========================
    MOBILE
 ========================= */
 
 @media only screen and (max-width: 600px) {
 
+  /* Nav scrolls with page and fits content */
+  nav.navigation {
+    position: relative;       /* scroll with page */
+    top: 0;
+    left: 0;
+    width: auto;
+    background: transparent;
+    padding: 10px 5vw;
+    z-index: 1000;
+  }
+
+  .navigation .list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Buttons transparent and stack cleanly */
+  .button {
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 0;
+    height: auto;
+    backdrop-filter: none;
+  }
+
+  .button a {
+    padding: 0;
+    color: black;
+  }
+
+  /* About page padding */
   .about {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 20px;
   }
 
   img {
     width: 90vw;
+    height: auto;
   }
 
 }
-
